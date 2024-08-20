@@ -1,0 +1,17 @@
+[package]
+name = "devi"
+version = "0.1.0"
+edition = "2021"
+authors = ["WMouton"]
+description = "Manages API tokens with expiration dates"
+documentation = "https://github.com/wmouton/devi"
+readme = "README.md"
+repository = "https://github.com/wmouton/devi"
+license = "GPL-3.0"
+keywords = ["rust", "tool", "terminal", "cli", "token"]
+categories = ["command-line-utilities"]
+homepage = "https://github.com/wmouton/devi"
+
+
+[dependencies]
+clap = { version = "3.0", features = ["derive"] }
